@@ -1,0 +1,43 @@
+form {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #c7c7c7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    margin: auto;
+    display: block;
+    margin-bottom: 10px;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+input[type="number"] {
+    margin: auto;
+    display: block;
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: large;
+}
+
+button {
+    margin-left: 100px;
+    width: 100px;
+    padding: 10px;
+    background-color: #0a2049;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #050f1a;
+}

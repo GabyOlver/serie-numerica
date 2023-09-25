@@ -1,0 +1,8 @@
+<form (submit)="onSubmit()">
+    <label for="numeroNatural">Ingresa un número natural</label>
+    <input type="number" [(ngModel)]="numeroNatural" name="numeroNatural" min="0" (input)="restrictInput($event)" placeholder="0">
+
+    <button type="submit">Calcular</button>
+</form>
+
+
